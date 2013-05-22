@@ -1,4 +1,4 @@
-for (var a = 104729; a < 104729 + 10000; a++)
+for (var a = 2; a < 2000000; a++)
                 {
                     if (isPrime(a))
                       process.stdout.write('X');
