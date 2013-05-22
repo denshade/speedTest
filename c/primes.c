@@ -3,7 +3,7 @@
 int main()
 {
 	int k;
-	for (k = 104729; k < 104729 + 10000; k++)
+	for (k = 2; k < 200000; k++)
 	{
 		if (isPrime(k))
 		{
