@@ -4,6 +4,9 @@ This project is a simple program written in different languages.
 The goal is not to have an efficient prime verification program. The goals is a comparison of the 
 performance of the procedures languages next to each other.
 
+This doesn't mean this language will be x times faster than the other. In your case it might be better 
+or worse. Seriously use your brain and profile your own application. Hell you might learn something.
+
 How much faster is C than Java?
 
 Example code that is the basis for others to start from:
