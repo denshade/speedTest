@@ -39,7 +39,7 @@ Example code that is the basis for others to start from:
 
 Disclaimer:
 This measures how fast a language is for this specific program. Optimisations are not welcome. 
-The goal is to use basic constraints of the language. 
+The goal is to use basic constructions of the language. 
 Only procedural languages are welcome. 
 Later on perhaps functional languages may come along but not now.
 
