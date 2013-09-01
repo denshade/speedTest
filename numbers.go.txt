@@ -1,3 +1,5 @@
 go version go1.1.1 windows/amd64
 
-1296,6878095 seconds
+Measurements in seconds:
+1296,6878095 
+1282,3315247
