@@ -1,4 +1,4 @@
-speedFun
+speedTest
 ========
 This project is a simple program written in different languages. 
 The goal is not to have an efficient prime verification program. The goal is a comparison of the 
