@@ -3,15 +3,14 @@
 int main()
 {
 	int k;
+    int cnt=0;
 	for (k = 2; k < 2000000; k++)
 	{
 		if (isPrime(k))
-		{
-			printf("X");
-		} else {
-			printf("O");
-		}
+            cnt++;
 	}  
+
+    printf("found %d prime numbers",cnt);
 }
 
 int isPrime(int number)
@@ -26,6 +25,5 @@ int isPrime(int number)
    }
    return 1;
 }
-
 
 
