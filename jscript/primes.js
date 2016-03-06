@@ -1,11 +1,11 @@
 for (var a = 2; a < 2000000; a++)
                 {
+                    int cnt = 0;
                     if (isPrime(a))
-                      process.stdout.write('X');
-                    else
-                      process.stdout.write('O');
+                      cnt++;
 
                 }
+process.stdout.write("Found " + cnt + "primes");
 
                 function isPrime(number)
                 {
