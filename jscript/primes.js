@@ -1,4 +1,4 @@
-int cnt = 0;
+var cnt = 0;
 for (var a = 2; a < 2000000; a++)
                 {
                     if (isPrime(a))
