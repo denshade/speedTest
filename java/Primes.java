@@ -12,7 +12,7 @@ public class Primes
    		}
        		
 	}
-	System.out.print('Found ' + cnt + " primes");
+	System.out.print("Found " + cnt + " primes");
 	}
 
 public static boolean isPrime(int number)
