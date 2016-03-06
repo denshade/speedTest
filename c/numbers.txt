@@ -10,3 +10,8 @@ Visual studio C++
 
 
 Intel Core i5-3570K CPU @ 3.40 GHz
+
+Virtual machine on ubuntu 14.04.4
+
+383
+
