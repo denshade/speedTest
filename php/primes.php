@@ -1,17 +1,14 @@
 <?php
 
-$myNumber = 104729;
-for ($k = 104729; $k < 104729 + 10000; $k++)
+$cnt = 0;
+for ($k = 2; $k < 2000000; $k++)
 {
    if (isPrime($k))
    {
-       echo 'X';
-   }
-   else
-   {
-       echo 'O';
+       $cnt++;
    }
 }
+echo "Found $cnt primes";
 
 function isPrime($number)
 {
