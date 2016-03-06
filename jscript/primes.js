@@ -1,6 +1,6 @@
+int cnt = 0;
 for (var a = 2; a < 2000000; a++)
                 {
-                    int cnt = 0;
                     if (isPrime(a))
                       cnt++;
 
