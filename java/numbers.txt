@@ -12,4 +12,6 @@ Time in seconds.
 Virtual box. Ubuntu. 14.04.4
 1.7.0_95
 426
-
+418
+415
+446
