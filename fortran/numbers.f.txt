@@ -9,3 +9,4 @@ Virtual machine on ubuntu 14.04.4
 gfortran 4.8.4
 
 672
+592
