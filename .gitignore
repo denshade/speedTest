@@ -1,0 +1,3 @@
+vagrant/.vagrant
+*.class
+a.out

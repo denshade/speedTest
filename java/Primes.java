@@ -2,15 +2,15 @@ public class Primes
 {
 	public static void main(String[] args)
 	{
-		
+
         int cnt = 0;
-	for (int k = 2; k < 2000000; k++)
+	for (int k = 2; k < 100000; k++)
 	{
    		if (isPrime(k))
    		{
        			cnt++;
    		}
-       		
+
 	}
 	System.out.print("Found " + cnt + " primes");
 	}
@@ -26,5 +26,5 @@ public static boolean isPrime(int number)
    }
    return true;
 }
-	
+
 }

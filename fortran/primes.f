@@ -15,12 +15,12 @@
  END FUNCTION
 
 Program Primes
-  do i=104729, 104729+10000 
-     if (isPrime(i) == 1) then 
-        write (*,*) "X"
-     else 
-        write (*,*) "O"
-     end if  
-  end do 
-
+  INTEGER :: counter, i
+  counter = 0
+  do i=2, 100000
+     if (isPrime(i) == 1) then
+        counter = counter + 1
+     end if
+  end do
+  write (*,*), counter
 End Program Primes
