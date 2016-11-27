@@ -7,11 +7,12 @@ def isPrime(number)
         return true
 end
 
+counter = 0
+for i in 2..100000
 
-for i in 2..2000000
-	if isPrime(i) then
-		puts "X"
-	else
-		puts "O"
+  if isPrime(i) then
+		counter = counter + 1
 	end
 end
+
+puts "primes : " + counter.to_s

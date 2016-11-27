@@ -5,22 +5,23 @@ procedure Prime is
     begin
         for l in 2..k - 1 loop
             if k mod l = 0 then
-                return True;
+                return False;
             end if;
-                
+
         end loop;
-      return False;
+      return True;
     end isPrime;
 
-
+counter : Integer := 0;
 begin
 
-    for k in 2 .. 2000000 loop
-        if isPrime(k) then 
-            Ada.Text_IO.Put("X");
-        else 
-            Ada.Text_IO.Put("O");
+    for k in 2 .. 100000 loop
+        if isPrime(k) then
+            counter := counter + 1;
         end if;
-    
+
     end loop;
+    Ada.Text_IO.Put("primes counted ");
+    Ada.Text_IO.Put(Integer'Image(counter));
+
 end Prime;

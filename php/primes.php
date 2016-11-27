@@ -1,7 +1,7 @@
 <?php
 
 $cnt = 0;
-for ($k = 2; $k < 2000000; $k++)
+for ($k = 2; $k < 100000; $k++)
 {
    if (isPrime($k))
    {
@@ -21,6 +21,3 @@ function isPrime($number)
    }
    return true;
 }
-
-
-

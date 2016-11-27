@@ -1,5 +1,5 @@
 var cnt = 0;
-for (var a = 2; a < 2000000; a++)
+for (var a = 2; a < 100000; a++)
                 {
                     if (isPrime(a))
                       cnt++;

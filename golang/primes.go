@@ -4,7 +4,7 @@ import "fmt"
 
 func isPrime(x int) bool {
   for k := 2; k < x; k++{
-		if x % k == 0{
+		if x % k == 0 {
 			return false
 		}
 	}
@@ -12,11 +12,12 @@ func isPrime(x int) bool {
 }
 
 func main() {
-	for k := 2; k < 2000000; k++{
+  counter := 0
+	for k := 2; k < 100000; k++ {
 		if isPrime(k) {
-				fmt.Print("X")
-			} else {
-				fmt.Print("O")
+        counter++
 			}
-	} 
+	}
+  fmt.Print("Primes:")
+  fmt.Print( counter)
 }
