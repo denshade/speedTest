@@ -125,6 +125,7 @@ done
 #
 echo "Python"
 #python is installed by default.
+cd /vagrant_data/python
 for i in `seq 1 $NUMBEROFTESTS`
 do
   /usr/bin/time --format "%e" -o /tmp/file python primes.py
@@ -136,9 +137,13 @@ done
 #
 echo "Ruby"
 sudo apt-get install ruby-full -y
-
+cd /vagrant_data/ruby
 for i in `seq 1 $NUMBEROFTESTS`
 do
   /usr/bin/time --format "%e" -o /tmp/file ruby primes.rb
   cat /tmp/file >> ../reports/ruby.numbers.csv
 done
+
+cd /vagrant_data/reports
+echo *.csv | tr [:blank:] ','  > final/final.csv
+paste -d, *.csv >> final/final.csv
