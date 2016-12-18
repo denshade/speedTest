@@ -1,11 +1,12 @@
 speedTest
 ========
+# Goal
 This project has been concieved out of the simple question: How do the different languages and their compilers/interpreters compare on CPU efficiency?
 
 Keep in mind that the goal is not to have an efficient prime verification program. 
 
 This is a primitive check and focusses on CPU efficiency. 
-
+# Methods
 The code below is a C code snippet that is used as a starting point procedure for the different languages. 
 
     int main()
@@ -38,13 +39,13 @@ The code below is a C code snippet that is used as a starting point procedure fo
 
 We calculate the speed of these programs by running them 3 times on a virtual machine set up by vagrant. 
 
-Results
+# Results
 
 ![alt text](https://raw.githubusercontent.com/denshade/speedTest/master/2016-11-27%2020_38_01-final.csv%20-%20LibreOffice%20Calc.png "Numbers")
 
 
 
-Disclaimer:
+# Disclaimer:
 - This measures how fast a language implementation is for this specific program.
 - Optimisations are not welcome. 
 - The goal is to use basic constructions of the language. 
