@@ -37,11 +37,16 @@ The code below is a C code snippet that is used as a starting point procedure fo
     }
 
 
-We calculate the speed of these programs by running them 3 times on a virtual machine set up by vagrant. 
+We calculate the speed of these programs by running them 3 times on a virtual machine set up by vagrant. We use hashicorp/precise64 which is a ubuntu instance. 
+You can run vagrant up to setup your machine and run https://github.com/denshade/speedTest/blob/master/vagrant/install/runAllTests.sh.
+This will run all the tests and put the results in a reports directory. 
 
 # Results
 
 ![alt text](https://raw.githubusercontent.com/denshade/speedTest/master/2016-11-27%2020_38_01-final.csv%20-%20LibreOffice%20Calc.png "Numbers")
+
+It's clear that most language aren't far apart. 
+Worst in the class are Ruby, python and PHP. Javascript is doing very well in nodejs. 
 
 
 
