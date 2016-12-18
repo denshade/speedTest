@@ -45,8 +45,9 @@ This will run all the tests and put the results in a reports directory.
 
 ![alt text](https://raw.githubusercontent.com/denshade/speedTest/master/2016-11-27%2020_38_01-final.csv%20-%20LibreOffice%20Calc.png "Numbers")
 
-It's clear that most language aren't far apart. 
-Worst in the class are Ruby, python and PHP. Javascript is doing very well in nodejs. 
+- Ruby, Python and PHP aren't scoring very well.
+- The compiled languages are obviously doing quite well. 
+- Javascript was run in nodejs has a very positive outcome as a interpreted language. Node.js uses Just-in-Time compilation with the V8 JavaScript Engine.  
 
 The exact numbers can be found here:
 https://github.com/denshade/speedTest/blob/master/reports/final/final.csv
