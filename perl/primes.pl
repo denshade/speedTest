@@ -20,16 +20,12 @@ sub isPrime
 
 
 my $k = 2;
-
-for ($k = 2; $k < 2000000; $k++)
+my $counter = 0;
+for ($k = 2; $k < 100000; $k++)
 {
 	if (isPrime($k))
-	{		
-		print "X";
-	}
-	else
 	{
-		print "O";
-		
+		  $counter++;
 	}
 }
+print $counter;
