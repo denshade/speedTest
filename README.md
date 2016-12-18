@@ -1,13 +1,13 @@
 speedTest
 ========
 # Goal
-This project has been concieved out of the simple question: How do the different languages and their compilers/interpreters compare on CPU efficiency?
+This project has been concieved out of the simple question: How do the different procedural languages and their compiled/interpreted programs compare on CPU efficiency?
 
-Keep in mind that the goal is not to have an efficient prime verification program. 
+Keep in mind that the goal is not to have an efficient prime verification program. The program below is inefficient and intentionally so. 
 
-This is a primitive check and focusses on CPU efficiency. 
+
 # Methods
-The code below is a C code snippet that is used as a starting point procedure for the different languages. 
+The code below is a C code snippet that is used as a the reference procedure for the different languages. 
 
     int main()
     {
@@ -47,6 +47,9 @@ This will run all the tests and put the results in a reports directory.
 
 It's clear that most language aren't far apart. 
 Worst in the class are Ruby, python and PHP. Javascript is doing very well in nodejs. 
+
+The exact numbers can be found here:
+https://github.com/denshade/speedTest/blob/master/reports/final/final.csv
 
 
 
