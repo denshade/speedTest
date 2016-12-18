@@ -51,7 +51,7 @@ Worst in the class are Ruby, python and PHP. Javascript is doing very well in no
 The exact numbers can be found here:
 https://github.com/denshade/speedTest/blob/master/reports/final/final.csv
 
-
+The y-axis expresses the time in seconds it took to come to a solution.
 
 # Disclaimer:
 - This measures how fast a language implementation is for this specific program.
