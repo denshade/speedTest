@@ -8,36 +8,33 @@ This is a primitive check and focusses on CPU efficiency.
 
 The code below is a C code snippet that is used as a starting point procedure for the different languages. 
 
-{{Pre|
-
-int main()
-{
-	int k;
-  int cnt=0;
-	for (k = 2; k < 100000; k++)
+    int main()
+    {
+    	int k;
+        int cnt=0;
+    	for (k = 2; k < 100000; k++)
 	{
 		if (isPrime(k))
             cnt++;
 	}
 
-  printf("found %d prime numbers",cnt);
+       printf("found %d prime numbers",cnt);
 	exit(0);
-}
+    }
 
-int isPrime(int number)
-{
-   int i;
-   for (i = 2; i < number; i++ )
-   {
-       if (number % i == 0)
+    int isPrime(int number)
+    {
+       int i;
+       for (i = 2; i < number; i++ )
        {
-           return 0;
+           if (number % i == 0)
+           {
+               return 0;
+           }
        }
-   }
-   return 1;
-}
+       return 1;
+    }
 
-}}
 
 We calculate the speed of these programs by running them 3 times on a virtual machine set up by vagrant. 
 
