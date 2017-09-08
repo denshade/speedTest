@@ -28,6 +28,18 @@ do
 done
 
 #
+# C++
+#
+echo "C++"
+cd /vagrant_data/cpp
+c++ -O3 primes.cpp
+for i in `seq 1 $NUMBEROFTESTS`
+do
+  /usr/bin/time --format "%e" -o /tmp/file ./a.out
+  cat /tmp/file >> ../reports/cpp.numbers.csv
+done
+
+#
 # C Sharp
 #
 echo "C sharp"
