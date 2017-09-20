@@ -1,0 +1,22 @@
+Numbers
+=======
+
+Seconds 5,785
+
+Visual studio C++
+441 sec.
+442 sec.
+
+
+
+Intel Core i5-3570K CPU @ 3.40 GHz
+
+Virtual machine on ubuntu 14.04.4
+gcc 4.8.4
+
+383
+432
+370
+380
+
+
