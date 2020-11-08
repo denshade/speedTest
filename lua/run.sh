@@ -1,0 +1,1 @@
+time lua primes.lua

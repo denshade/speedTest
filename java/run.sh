@@ -1,1 +1,1 @@
-java Primes
+time java Primes
