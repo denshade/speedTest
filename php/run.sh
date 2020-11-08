@@ -1,0 +1,1 @@
+time php primes.php

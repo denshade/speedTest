@@ -19,4 +19,6 @@ echo "copying report to ../reports/$filename"
 
 #runForLanguage jscript
 #runForLanguage c
-runForLanguage java
+#runForLanguage java
+#runForLanguage lua
+runForLanguage php
